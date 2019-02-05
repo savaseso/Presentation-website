@@ -23,9 +23,9 @@ body {
     overflow: hidden;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-  }
+  } */
 /*page-colors*/
 
 #page-1 {background-color: var(--page-1-color);}
@@ -85,20 +85,18 @@ html {
 }
 
 @keyframes animate-h1 {
-
     to {
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
 #page-1 p {
     transform: translateX(-2000px);
-    animation: animate-p var(--animate-speed) forwards ease-in;
+    animation: animate-p var(--animate-speed) forwards ease-in 1s;
 
 }
 
 @keyframes animate-p {
-
     to {
         transform: translateX(0);
     }
