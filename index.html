@@ -69,13 +69,13 @@
   crossorigin="anonymous"></script>
   <script>
     $('.btn').on('click', function(event){
-            if(this.hash !== ''){
+        if(this.hash !== ''){
             event.preventDefault();
             const hash = this.hash;
-            $('html, body').animate(
-                {
-                scrollTop: $(hash).offset().top
-                },
+        $('html, body').animate(
+            {
+            scrollTop: $(hash).offset().top
+            },
             800
             );
         }
